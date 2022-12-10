@@ -26,3 +26,12 @@ function multiply(a, b) {
 count = multiply(5,10);
 document.write(count);
 ```
+### Experience
+I haven't worked in IT yet and I'm looking for a cool job 
+### Education
+University:  
+* 2012 Belarusian-Russian University / Engineering and Economics/Commerce Specialist
+* 2022 Institute of Business of the Belarusian State University / WEB design and computer graphics/Programmer-Web designer  
+### Languages
+* Russian - native speaker
+* English - A1
