@@ -14,3 +14,15 @@ Also I have excellent interpersonal skills, enabling me to interact with a wide 
 * MySQL
 * Figma
 * Adobe Photoshop, CorelDraw, Adobe Animate, 3ds Max
+### Code Example
+```
+var a, b;
+var count;
+			
+function multiply(a, b) {
+    return a * b;
+}
+			
+count = multiply(5,10);
+document.write(count);
+```
