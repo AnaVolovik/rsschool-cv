@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
-  const openMenu = document.getElementById('openMenu');
-  const closeMenu = document.getElementById( 'closeMenu' );
-  const wrapMenu = document.getElementById( 'wrapMenu' );
+  const openMenu = document.getElementById('open_menu');
+  const closeMenu = document.getElementById( 'close_menu' );
+  const wrapMenu = document.getElementById( 'wrap_menu' );
 
   openMenu.addEventListener( 'click', function () {
     openMenu.style = 'display: none;';

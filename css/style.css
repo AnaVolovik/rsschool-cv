@@ -22,13 +22,13 @@ html {
     margin: 0 auto;
   }
   
-  .colLeft {
+  .col_left {
     width: 30%;
     padding: 30px;
     background-color: #fbd2d7;
   }
   
-  .colRight {
+  .col_right {
     width: 65%;
     padding: 30px 30px 30px 50px;
     border-right: 1px solid #D3D3D3;
@@ -39,7 +39,7 @@ html {
     width: 100%;
   }
   
-  .headerInfo {
+  .header__info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,7 +50,7 @@ html {
     margin-bottom: 50px;
   }
   
-  .headerTitle {
+  .header__title {
     margin-bottom: 20px;
     font-size: 64px;
     font-weight: 600;
@@ -59,12 +59,12 @@ html {
     color: #808080;
   }
   
-  .headerSubtitle {
+  .header__subtitle {
     font-size: 32px;
     text-transform: uppercase;
   }
   
-  .headerImg img {
+  .header__img img {
     max-width: 100%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   }
@@ -78,23 +78,23 @@ html {
   }
   
   .menu li,
-  .menuMobile li {
+  .menu_mobile li {
     padding: 16px;
   }
   
   .menu li>a,
-  .menuMobile li>a {
+  .menu_mobile li>a {
     color: #808080;
   }
   
   .menu li>a:hover,
-  .menuMobile li>a:hover {
+  .menu_mobile li>a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
   }
   
   /* MENU MOBILE */
-  #wrapMenu {
+  #wrap_menu {
     position: fixed;
     top: 0;
     right: 0;
@@ -107,7 +107,7 @@ html {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   }
   
-  #openMenu {
+  #open_menu {
     position: absolute;
     top: 0px;
     right: -20px;
@@ -119,7 +119,7 @@ html {
     cursor: pointer;
   }
   
-  #closeMenu {
+  #close_menu {
     position: fixed;
     top: 20px;
     right: 10px;
@@ -135,7 +135,7 @@ html {
     position: relative;
   }
   
-  .menuMobile {
+  .menu_mobile {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -161,26 +161,26 @@ html {
     width: 100%;
   }
   
-  .colLeft section,
-  .colRight section {
+  .col_left section,
+  .col_right section {
     margin-bottom: 40px;
   }
   
-  .colRight section>p,
-  .colLeft section>ul>li {
+  .col_right section>p,
+  .col_left section>ul>li {
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 1.5;
   }
   
-  .sectionTitle {
+  .section_itle {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
   }
   
-  .mainInfo {
+  .main__info {
     background-color: #ffffff;
   }
   
@@ -198,17 +198,17 @@ html {
     width: 45%;
   }
   
-  .projectCV1 p {
+  .project_CV1 p {
     padding-top: 10px;
     text-align: center;
   }
   
-  .projectCV1 img {
+  .project_CV1 img {
     max-width: 100%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   }
   
-  .projectCV1 a:hover {
+  .project_CV1 a:hover {
     color: #808080;
     text-decoration: underline;
     text-underline-offset: 4px;
@@ -237,7 +237,7 @@ html {
     transition: 0.3s;
   }
   
-  .logoRS img {
+  .logo_RS img {
     position: absolute;
     bottom: 20px;
     right: 30px;
@@ -246,7 +246,7 @@ html {
   
   /* MEDIA */
   @media (max-width: 1000px) {
-    #openMenu {
+    #open_menu {
       display: block;
     }
   
@@ -254,27 +254,27 @@ html {
       display: none;
     }
   
-    .headerTitle {
+    .header__title {
       font-size: 56px;
       line-height: 1.3;
     }
   
-    .headerSubtitle {
+    .header__subtitle {
       font-size: 24px;
     }
   
-    .sectionTitle {
+    .section_title {
       font-size: 20px;
     }
   
-    .colRight section>p,
-    .colLeft section>ul>li {
+    .col_right section>p,
+    .col_left section>ul>li {
       font-size: 16px;
     }
   }
   
   @media (max-width: 800px) and (orientation:portrait) {
-    #openMenu {
+    #open_menu {
       display: block;
     }
   
@@ -282,23 +282,23 @@ html {
       display: none;
     }
   
-    .headerImg {
+    .header__img {
       padding-left: 30px;
     }
   
-    .headerInfo {
+    .header__info {
       background-color: #fbd2d7;
     }
     .titles {
       padding: 0 30px;
     }
   
-    .headerTitle {
+    .header__title {
       font-size: 48px;
       line-height: 1.3;
     }
   
-    .headerSubtitle {
+    .header__subtitle {
       font-size: 20px;
     }
   
@@ -308,23 +308,23 @@ html {
       width: 100%;
     }
   
-    .colLeft,
-    .colRight {
+    .col_left,
+    .col_right {
       width: 100%;
       padding: 30px 0;
     }
   
-    .sectionBlock {
+    .section_block {
       width: 80%;
       margin: 0 auto;
     }
   
-    .sectionTitle {
+    .section_title {
       font-size: 18px;
     }
   
-    .colRight section>p,
-    .colLeft section>ul>li {
+    .col_right section>p,
+    .col_left section>ul>li {
       font-size: 16px;
     }
   } 
